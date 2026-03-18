@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing controle_safety_pkg.egg-info/PKG-INFO
+writing dependency_links to controle_safety_pkg.egg-info/dependency_links.txt
+writing entry points to controle_safety_pkg.egg-info/entry_points.txt
+writing requirements to controle_safety_pkg.egg-info/requires.txt
+writing top-level names to controle_safety_pkg.egg-info/top_level.txt
+reading manifest file 'controle_safety_pkg.egg-info/SOURCES.txt'
+writing manifest file 'controle_safety_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/koumba/robot_ws/install/controle_safety_pkg/lib/python3.10/site-packages/controle-safety-pkg.egg-link (link to .)
+
+Installed /home/koumba/robot_ws/build/controle_safety_pkg
+running symlink_data

@@ -1,0 +1,23 @@
+[3.319s] Invoking command in '/home/koumba/robot_ws/build/led_supervision_pkg': PYTHONPATH=/home/koumba/robot_ws/build/led_supervision_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/led_supervision_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/led_supervision_pkg/build --no-deps symlink_data
+[3.829s] running develop
+[4.158s] running egg_info
+[4.158s] creating led_supervision_pkg.egg-info
+[4.160s] writing led_supervision_pkg.egg-info/PKG-INFO
+[4.160s] writing dependency_links to led_supervision_pkg.egg-info/dependency_links.txt
+[4.161s] writing entry points to led_supervision_pkg.egg-info/entry_points.txt
+[4.161s] writing requirements to led_supervision_pkg.egg-info/requires.txt
+[4.161s] writing top-level names to led_supervision_pkg.egg-info/top_level.txt
+[4.161s] writing manifest file 'led_supervision_pkg.egg-info/SOURCES.txt'
+[4.163s] reading manifest file 'led_supervision_pkg.egg-info/SOURCES.txt'
+[4.165s] writing manifest file 'led_supervision_pkg.egg-info/SOURCES.txt'
+[4.168s] running build_ext
+[4.169s] Creating /home/koumba/robot_ws/install/led_supervision_pkg/lib/python3.10/site-packages/led-supervision-pkg.egg-link (link to .)
+[4.171s] 
+[4.171s] Installed /home/koumba/robot_ws/build/led_supervision_pkg
+[4.172s] running symlink_data
+[4.172s] creating /home/koumba/robot_ws/install/led_supervision_pkg/share/ament_index
+[4.172s] creating /home/koumba/robot_ws/install/led_supervision_pkg/share/ament_index/resource_index
+[4.173s] creating /home/koumba/robot_ws/install/led_supervision_pkg/share/ament_index/resource_index/packages
+[4.174s] symbolically linking /home/koumba/robot_ws/build/led_supervision_pkg/resource/led_supervision_pkg -> /home/koumba/robot_ws/install/led_supervision_pkg/share/ament_index/resource_index/packages
+[4.175s] symbolically linking /home/koumba/robot_ws/build/led_supervision_pkg/package.xml -> /home/koumba/robot_ws/install/led_supervision_pkg/share/led_supervision_pkg
+[4.289s] Invoked command in '/home/koumba/robot_ws/build/led_supervision_pkg' returned '0': PYTHONPATH=/home/koumba/robot_ws/build/led_supervision_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/led_supervision_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/led_supervision_pkg/build --no-deps symlink_data

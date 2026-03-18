@@ -1,0 +1,23 @@
+[3.285s] Invoking command in '/home/koumba/robot_ws/build/localisation_pkg': PYTHONPATH=/home/koumba/robot_ws/build/localisation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/localisation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/localisation_pkg/build --no-deps symlink_data
+[3.828s] running develop
+[4.125s] running egg_info
+[4.125s] creating localisation_pkg.egg-info
+[4.126s] writing localisation_pkg.egg-info/PKG-INFO
+[4.126s] writing dependency_links to localisation_pkg.egg-info/dependency_links.txt
+[4.127s] writing entry points to localisation_pkg.egg-info/entry_points.txt
+[4.127s] writing requirements to localisation_pkg.egg-info/requires.txt
+[4.127s] writing top-level names to localisation_pkg.egg-info/top_level.txt
+[4.128s] writing manifest file 'localisation_pkg.egg-info/SOURCES.txt'
+[4.131s] reading manifest file 'localisation_pkg.egg-info/SOURCES.txt'
+[4.133s] writing manifest file 'localisation_pkg.egg-info/SOURCES.txt'
+[4.135s] running build_ext
+[4.137s] Creating /home/koumba/robot_ws/install/localisation_pkg/lib/python3.10/site-packages/localisation-pkg.egg-link (link to .)
+[4.138s] 
+[4.138s] Installed /home/koumba/robot_ws/build/localisation_pkg
+[4.139s] running symlink_data
+[4.139s] creating /home/koumba/robot_ws/install/localisation_pkg/share/ament_index
+[4.140s] creating /home/koumba/robot_ws/install/localisation_pkg/share/ament_index/resource_index
+[4.140s] creating /home/koumba/robot_ws/install/localisation_pkg/share/ament_index/resource_index/packages
+[4.141s] symbolically linking /home/koumba/robot_ws/build/localisation_pkg/resource/localisation_pkg -> /home/koumba/robot_ws/install/localisation_pkg/share/ament_index/resource_index/packages
+[4.142s] symbolically linking /home/koumba/robot_ws/build/localisation_pkg/package.xml -> /home/koumba/robot_ws/install/localisation_pkg/share/localisation_pkg
+[4.219s] Invoked command in '/home/koumba/robot_ws/build/localisation_pkg' returned '0': PYTHONPATH=/home/koumba/robot_ws/build/localisation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/localisation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/localisation_pkg/build --no-deps symlink_data

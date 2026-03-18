@@ -1,0 +1,1 @@
+/home/koumba/robot_ws/src/navigation_cartographie_pkg/setup.py

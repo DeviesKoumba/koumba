@@ -1,0 +1,16 @@
+[3.787s] Invoking command in '/home/koumba/robot_ws/build/navigation_cartographie_pkg': PYTHONPATH=/home/koumba/robot_ws/build/navigation_cartographie_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/navigation_cartographie_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/navigation_cartographie_pkg/build --no-deps symlink_data
+[4.452s] running develop
+[5.013s] running egg_info
+[5.015s] writing navigation_cartographie_pkg.egg-info/PKG-INFO
+[5.016s] writing dependency_links to navigation_cartographie_pkg.egg-info/dependency_links.txt
+[5.017s] writing entry points to navigation_cartographie_pkg.egg-info/entry_points.txt
+[5.017s] writing requirements to navigation_cartographie_pkg.egg-info/requires.txt
+[5.019s] writing top-level names to navigation_cartographie_pkg.egg-info/top_level.txt
+[5.022s] reading manifest file 'navigation_cartographie_pkg.egg-info/SOURCES.txt'
+[5.025s] writing manifest file 'navigation_cartographie_pkg.egg-info/SOURCES.txt'
+[5.029s] running build_ext
+[5.030s] Creating /home/koumba/robot_ws/install/navigation_cartographie_pkg/lib/python3.10/site-packages/navigation-cartographie-pkg.egg-link (link to .)
+[5.031s] 
+[5.032s] Installed /home/koumba/robot_ws/build/navigation_cartographie_pkg
+[5.032s] running symlink_data
+[5.117s] Invoked command in '/home/koumba/robot_ws/build/navigation_cartographie_pkg' returned '0': PYTHONPATH=/home/koumba/robot_ws/build/navigation_cartographie_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/navigation_cartographie_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/navigation_cartographie_pkg/build --no-deps symlink_data

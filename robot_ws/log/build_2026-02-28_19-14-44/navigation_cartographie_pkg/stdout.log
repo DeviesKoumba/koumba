@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating navigation_cartographie_pkg.egg-info
+writing navigation_cartographie_pkg.egg-info/PKG-INFO
+writing dependency_links to navigation_cartographie_pkg.egg-info/dependency_links.txt
+writing entry points to navigation_cartographie_pkg.egg-info/entry_points.txt
+writing requirements to navigation_cartographie_pkg.egg-info/requires.txt
+writing top-level names to navigation_cartographie_pkg.egg-info/top_level.txt
+writing manifest file 'navigation_cartographie_pkg.egg-info/SOURCES.txt'
+reading manifest file 'navigation_cartographie_pkg.egg-info/SOURCES.txt'
+writing manifest file 'navigation_cartographie_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/koumba/robot_ws/install/navigation_cartographie_pkg/lib/python3.10/site-packages/navigation-cartographie-pkg.egg-link (link to .)
+
+Installed /home/koumba/robot_ws/build/navigation_cartographie_pkg
+running symlink_data
+creating /home/koumba/robot_ws/install/navigation_cartographie_pkg/share/ament_index
+creating /home/koumba/robot_ws/install/navigation_cartographie_pkg/share/ament_index/resource_index
+creating /home/koumba/robot_ws/install/navigation_cartographie_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/koumba/robot_ws/build/navigation_cartographie_pkg/resource/navigation_cartographie_pkg -> /home/koumba/robot_ws/install/navigation_cartographie_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/koumba/robot_ws/build/navigation_cartographie_pkg/package.xml -> /home/koumba/robot_ws/install/navigation_cartographie_pkg/share/navigation_cartographie_pkg

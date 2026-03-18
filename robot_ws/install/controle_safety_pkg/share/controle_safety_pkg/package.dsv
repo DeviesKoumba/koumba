@@ -1,0 +1,9 @@
+source;share/controle_safety_pkg/hook/pythonpath.ps1
+source;share/controle_safety_pkg/hook/pythonpath.dsv
+source;share/controle_safety_pkg/hook/pythonpath.sh
+source;share/controle_safety_pkg/hook/ament_prefix_path.ps1
+source;share/controle_safety_pkg/hook/ament_prefix_path.dsv
+source;share/controle_safety_pkg/hook/ament_prefix_path.sh
+source;../../build/controle_safety_pkg/share/controle_safety_pkg/hook/pythonpath_develop.ps1
+source;../../build/controle_safety_pkg/share/controle_safety_pkg/hook/pythonpath_develop.dsv
+source;../../build/controle_safety_pkg/share/controle_safety_pkg/hook/pythonpath_develop.sh

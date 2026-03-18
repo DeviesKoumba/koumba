@@ -1,0 +1,16 @@
+[3.792s] Invoking command in '/home/koumba/robot_ws/build/controle_safety_pkg': PYTHONPATH=/home/koumba/robot_ws/build/controle_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/controle_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/controle_safety_pkg/build --no-deps symlink_data
+[4.428s] running develop
+[4.922s] running egg_info
+[4.923s] writing controle_safety_pkg.egg-info/PKG-INFO
+[4.923s] writing dependency_links to controle_safety_pkg.egg-info/dependency_links.txt
+[4.924s] writing entry points to controle_safety_pkg.egg-info/entry_points.txt
+[4.925s] writing requirements to controle_safety_pkg.egg-info/requires.txt
+[4.925s] writing top-level names to controle_safety_pkg.egg-info/top_level.txt
+[4.930s] reading manifest file 'controle_safety_pkg.egg-info/SOURCES.txt'
+[4.932s] writing manifest file 'controle_safety_pkg.egg-info/SOURCES.txt'
+[4.948s] running build_ext
+[4.949s] Creating /home/koumba/robot_ws/install/controle_safety_pkg/lib/python3.10/site-packages/controle-safety-pkg.egg-link (link to .)
+[4.952s] 
+[4.952s] Installed /home/koumba/robot_ws/build/controle_safety_pkg
+[4.953s] running symlink_data
+[5.091s] Invoked command in '/home/koumba/robot_ws/build/controle_safety_pkg' returned '0': PYTHONPATH=/home/koumba/robot_ws/build/controle_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/controle_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/controle_safety_pkg/build --no-deps symlink_data

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating localisation_pkg.egg-info
+writing localisation_pkg.egg-info/PKG-INFO
+writing dependency_links to localisation_pkg.egg-info/dependency_links.txt
+writing entry points to localisation_pkg.egg-info/entry_points.txt
+writing requirements to localisation_pkg.egg-info/requires.txt
+writing top-level names to localisation_pkg.egg-info/top_level.txt
+writing manifest file 'localisation_pkg.egg-info/SOURCES.txt'
+reading manifest file 'localisation_pkg.egg-info/SOURCES.txt'
+writing manifest file 'localisation_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/koumba/robot_ws/install/localisation_pkg/lib/python3.10/site-packages/localisation-pkg.egg-link (link to .)
+
+Installed /home/koumba/robot_ws/build/localisation_pkg
+running symlink_data
+creating /home/koumba/robot_ws/install/localisation_pkg/share/ament_index
+creating /home/koumba/robot_ws/install/localisation_pkg/share/ament_index/resource_index
+creating /home/koumba/robot_ws/install/localisation_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/koumba/robot_ws/build/localisation_pkg/resource/localisation_pkg -> /home/koumba/robot_ws/install/localisation_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/koumba/robot_ws/build/localisation_pkg/package.xml -> /home/koumba/robot_ws/install/localisation_pkg/share/localisation_pkg

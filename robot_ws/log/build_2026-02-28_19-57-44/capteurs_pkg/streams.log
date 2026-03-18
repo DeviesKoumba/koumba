@@ -1,0 +1,16 @@
+[3.829s] Invoking command in '/home/koumba/robot_ws/build/capteurs_pkg': PYTHONPATH=/home/koumba/robot_ws/build/capteurs_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/capteurs_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/capteurs_pkg/build --no-deps symlink_data
+[4.413s] running develop
+[4.772s] running egg_info
+[4.772s] writing capteurs_pkg.egg-info/PKG-INFO
+[4.773s] writing dependency_links to capteurs_pkg.egg-info/dependency_links.txt
+[4.773s] writing entry points to capteurs_pkg.egg-info/entry_points.txt
+[4.773s] writing requirements to capteurs_pkg.egg-info/requires.txt
+[4.774s] writing top-level names to capteurs_pkg.egg-info/top_level.txt
+[4.778s] reading manifest file 'capteurs_pkg.egg-info/SOURCES.txt'
+[4.779s] writing manifest file 'capteurs_pkg.egg-info/SOURCES.txt'
+[4.783s] running build_ext
+[4.784s] Creating /home/koumba/robot_ws/install/capteurs_pkg/lib/python3.10/site-packages/capteurs-pkg.egg-link (link to .)
+[4.785s] 
+[4.786s] Installed /home/koumba/robot_ws/build/capteurs_pkg
+[4.786s] running symlink_data
+[4.878s] Invoked command in '/home/koumba/robot_ws/build/capteurs_pkg' returned '0': PYTHONPATH=/home/koumba/robot_ws/build/capteurs_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/capteurs_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/capteurs_pkg/build --no-deps symlink_data

@@ -1,0 +1,23 @@
+[3.318s] Invoking command in '/home/koumba/robot_ws/build/battery_motor_pkg': PYTHONPATH=/home/koumba/robot_ws/build/battery_motor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/battery_motor_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/battery_motor_pkg/build --no-deps symlink_data
+[3.834s] running develop
+[4.157s] running egg_info
+[4.157s] creating battery_motor_pkg.egg-info
+[4.158s] writing battery_motor_pkg.egg-info/PKG-INFO
+[4.161s] writing dependency_links to battery_motor_pkg.egg-info/dependency_links.txt
+[4.161s] writing entry points to battery_motor_pkg.egg-info/entry_points.txt
+[4.161s] writing requirements to battery_motor_pkg.egg-info/requires.txt
+[4.162s] writing top-level names to battery_motor_pkg.egg-info/top_level.txt
+[4.162s] writing manifest file 'battery_motor_pkg.egg-info/SOURCES.txt'
+[4.163s] reading manifest file 'battery_motor_pkg.egg-info/SOURCES.txt'
+[4.164s] writing manifest file 'battery_motor_pkg.egg-info/SOURCES.txt'
+[4.168s] running build_ext
+[4.168s] Creating /home/koumba/robot_ws/install/battery_motor_pkg/lib/python3.10/site-packages/battery-motor-pkg.egg-link (link to .)
+[4.170s] 
+[4.170s] Installed /home/koumba/robot_ws/build/battery_motor_pkg
+[4.171s] running symlink_data
+[4.171s] creating /home/koumba/robot_ws/install/battery_motor_pkg/share/ament_index
+[4.172s] creating /home/koumba/robot_ws/install/battery_motor_pkg/share/ament_index/resource_index
+[4.172s] creating /home/koumba/robot_ws/install/battery_motor_pkg/share/ament_index/resource_index/packages
+[4.173s] symbolically linking /home/koumba/robot_ws/build/battery_motor_pkg/resource/battery_motor_pkg -> /home/koumba/robot_ws/install/battery_motor_pkg/share/ament_index/resource_index/packages
+[4.174s] symbolically linking /home/koumba/robot_ws/build/battery_motor_pkg/package.xml -> /home/koumba/robot_ws/install/battery_motor_pkg/share/battery_motor_pkg
+[4.291s] Invoked command in '/home/koumba/robot_ws/build/battery_motor_pkg' returned '0': PYTHONPATH=/home/koumba/robot_ws/build/battery_motor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koumba/robot_ws/install/battery_motor_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/koumba/robot_ws/build/battery_motor_pkg/build --no-deps symlink_data
