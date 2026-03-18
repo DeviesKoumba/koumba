@@ -1,15 +1,5 @@
 #!/usr/bin/env python3
-"""
-Nœud ROS2 de gestion de batterie (BMS).
 
-Rôle : interroger le BMS toutes les 500 ms via le bus CAN,
-publier l'état de la batterie, et couper les moteurs si une
-limite critique est franchie.
-
-Deux responsabilités séparées :
-  - Supervision  : alertes préventives (logs uniquement)
-  - Contrôle     : coupures absolues (E-STOP)
-"""
 
 import rclpy
 from rclpy.node import Node
@@ -19,11 +9,6 @@ import can
 import struct
 
 
-# ---------------------------------------------------------------------------
-# Bits de protection matérielle (registre 0x102, BYTE4~5)
-# Chaque bit indique une protection active sur le BMS.
-# Source : datasheet §3 Note 1
-# ---------------------------------------------------------------------------
 DESCRIPTIONS_PROTECTIONS = {
     0:  "Surtension d'une cellule",
     1:  "Sous-tension d'une cellule",
@@ -42,25 +27,10 @@ DESCRIPTIONS_PROTECTIONS = {
 
 
 class NoeudGestionBatterie(Node):
-    """
-    Nœud ROS2 principal de gestion de la batterie.
-
-    Publie sur :
-      /battery_state               → état complet de la batterie (BatteryState)
-      /robot_core/power_management → commande logique (String)
-      /hardware/emergency_stop     → arrêt d'urgence (Bool)
-    """
+   
 
     def __init__(self):
         super().__init__('noeud_gestion_batterie')
-
-        # -------------------------------------------------------------------
-        # Déclaration puis lecture immédiate des paramètres.
-        # Ces seuils correspondent aux limites physiques et chimiques de la
-        # batterie LiFePO4 — ils sont fixes par nature.
-        # On les déclare (bonne pratique ROS2 : permet de les passer en YAML
-        # ou en ligne de commande) puis on les lit une seule fois ici.
-        # -------------------------------------------------------------------
 
         # Seuils de tension (Volts)
         self.declare_parameter('tension_coupure_basse',   44.8)
@@ -149,12 +119,9 @@ class NoeudGestionBatterie(Node):
         # Boucle principale à 2 Hz (toutes les 500 ms)
         self.create_timer(0.5, self._boucle_principale)
 
-    # =======================================================================
+
     # VÉRIFICATION CRC-16
-    # Permet de détecter les corruptions de données sur le bus CAN.
-    # Algorithme : CRC-16/ARC (polynôme 0xA001, init 0xFFFF)
-    # Source : datasheet §4 — big-endian uniquement
-    # =======================================================================
+   
 
     def _verifier_integrite_trame(self, trame_8_octets: bytes) -> bool:
         """
